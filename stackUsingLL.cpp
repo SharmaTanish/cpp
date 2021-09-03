@@ -30,6 +30,11 @@ Node* insertInStack( int data){
 
 }
 
+Node* pop(){
+    top=top->next;
+    return top;
+}
+
 void print(){
     Node* temp=top;
     while(top!=NULL){
@@ -40,15 +45,13 @@ void print(){
     cout << endl;
 }
 
+
+
+
+
 int main(){
-    top = insertInStack(10);
-    top = insertInStack(80);
-    top = insertInStack(90);
-    top = insertInStack(520);
 
-    print();
 
-    return 0 ;
 
 }
 

@@ -1,1 +1,14 @@
-static
+(headC);
+    // headA=push(headA,5);
+    // headC=pop(headC);
+    // headB=push(headB,5);
+    // headA = pop(headA);
+    // headB = push(headB,5);
+    // headA  = pop(headA);
+    // headC  = push(headC,5); 
+    // headB  = pop(headB);
+    // headA = push(headA,5);
+    // headB = pop(headB);
+    // headC = push(headC,5);
+    // headA = pop(headA);
+    // headC = push(headC,5);
