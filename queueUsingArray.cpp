@@ -41,7 +41,19 @@ void print(Queue &obj){
 
 
 int main(){
+// OR HERE CAN MAKE ARR LIKE SIMPLE ONLY, i.e., int arr[size] ( taking elements of arr via input not directly {1,52,6,....} ) , AND PASS JUST arr AS ARGUMENT TO FUNCTION , AND THERE GET THIS BY SIMPLE int arr[] , AND NO NEED TO RETURN ANYTHING THE GLOBAL ARR WILL AUTOMATCALLY EFFECTED , SINCE int arr[] IS BY-DEFAULT POINTER ONLY, i.e.,
+/*
+array ke case me upr-upr se dekhe to kaam ek hi hai bs agr pointer se krte hn to ek alg se pointer bn jata hai jo ki point krta hai apne array ke first element ko aur agr arr[] aise bnaye to isme array ka address khud hi arr[0] ke equal hota hai like 
 
+int arr[] = {1,2,3};  
+-> isme agr aap print kro , " arr , &arr , &arr[0] " to ye tino same aayenge but
+
+int* arr = new int[3];
+arr[0] = 1;
+-> isme agr aap " arr , &arr , &arr[0] " print kro to alg aayega arr , &arr ka address kyoki &arr real pointer ka address dega jo create hua aur khaali arr dega *arr ka mtlb 1st element ka 
+
+aur baaki pointers ka apna use hai by reference pass , allocate krni ho memory baaki apna ye data structures me..............
+*/
 Queue obj;
 
 insert(obj,1);
