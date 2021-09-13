@@ -1,5 +1,4 @@
 // merge sort
-// incomplete
 #include <iostream>
 using namespace std;
 
