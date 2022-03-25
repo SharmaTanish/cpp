@@ -1,1 +1,1 @@
- arr[i
+vertices[q][0]

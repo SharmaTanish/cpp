@@ -49,7 +49,7 @@ void quickSort(int arr[],int si, int ei){
 }
 
 int main(){
-    int arr[] = {4,5,6,2,13,3,8};
+    int arr[] = {35,50,15,25,80,20,90,45};
     quickSort(arr,0,6);
     for(int i=0;i<7;i++){
         cout << arr[i] << " ";

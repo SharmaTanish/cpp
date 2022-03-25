@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void insertionsort(int* &arr,int size){ // 8 3 5 6 20
+void insertionsort(int* &arr,int size){ 
     for(int i=1;i<size;i++){
         int temp=arr[i];
         int index=0;
